@@ -1,0 +1,71 @@
+import 'dart:math';
+import 'package:flutter/material.dart';
+import 'package:gdgica/agenda/cloud_screen.dart';
+import 'package:gdgica/agenda/mobile_screen.dart';
+import 'package:gdgica/agenda/web_screen.dart';
+import 'package:gdgica/home/index.dart';
+import 'package:gdgica/universal/dev_scaffold.dart';
+import 'package:gdgica/utils/tools.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+class AgendaPage extends StatelessWidget {
+  static const String routeName = "/agenda";
+  const AgendaPage({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    var homeBloc = HomeBloc();
+    return DefaultTabController(
+      length: 3,
+      child: DevScaffold(
+        title: "Agenda",
+        tabBar: TabBar(
+          indicatorSize: TabBarIndicatorSize.label,
+          indicatorColor: Tools.multiColors[Random().nextInt(4)],
+          labelStyle: const TextStyle(
+            fontSize: 12,
+          ),
+          isScrollable: false,
+          tabs: const <Widget>[
+            Tab(
+              child: Text("Cloud"),
+              icon: Icon(
+                FontAwesomeIcons.cloud,
+                size: 12,
+              ),
+            ),
+            Tab(
+              child: Text("Mobile"),
+              icon: Icon(
+                FontAwesomeIcons.mobile,
+                size: 12,
+              ),
+            ),
+            Tab(
+              child: Text("Web & More"),
+              icon: Icon(
+                FontAwesomeIcons.chrome,
+                size: 12,
+              ),
+            )
+          ],
+        ),
+        body: TabBarView(
+          children: <Widget>[
+            CloudScreen(
+              key: Key('cloud_screen'),
+              homeBloc: homeBloc,
+            ),
+            MobileScreen(
+              key: Key('mobile_screen'),
+              homeBloc: homeBloc,
+            ),
+            WebScreen(
+              key: Key('web_screen'),
+              homeBloc: homeBloc,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
