@@ -52,15 +52,15 @@ class AgendaPage extends StatelessWidget {
         body: TabBarView(
           children: <Widget>[
             CloudScreen(
-              key: Key('cloud_screen'),
+              key: const Key('cloud_screen'),
               homeBloc: homeBloc,
             ),
             MobileScreen(
-              key: Key('mobile_screen'),
+              key: const Key('mobile_screen'),
               homeBloc: homeBloc,
             ),
             WebScreen(
-              key: Key('web_screen'),
+              key: const Key('web_screen'),
               homeBloc: homeBloc,
             ),
           ],

@@ -4,14 +4,6 @@ import 'package:gdgica/config/config_bloc.dart';
 import 'package:gdgica/universal/dev_scaffold.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-// class MapPage extends StatefulWidget {
-//   static const String routeName = "/map";
-//   const MapPage({Key? key}) : super(key: key);
-
-//   @override
-//   _MapPageState createState() => _MapPageState();
-// }
-
 class MapPage extends StatefulWidget {
   static const String routeName = "/map";
   const MapPage({Key? key}) : super(key: key);
@@ -22,7 +14,8 @@ class MapPage extends StatefulWidget {
 class MapPageState extends State<MapPage> {
   late GoogleMapController _controller;
   bool isMapCreated = false;
-  static const LatLng myLocation = LatLng(37.42796133580664, -122.085749655962);
+  // -14.063964, -75.729005
+  static const LatLng myLocation = LatLng(-14.063964, -75.729005);
 
   @override
   void initState() {
@@ -33,18 +26,17 @@ class MapPageState extends State<MapPage> {
     target: myLocation,
     zoom: 14.4746,
   );
-
+  
   Set<Marker> _createMarker() {
-    return <Marker> [
+    return {
       Marker(
-          markerId: MarkerId("marker_1"),
+          markerId: const MarkerId("marker_1"),
           position: myLocation,
           icon: BitmapDescriptor.defaultMarkerWithHue(
             BitmapDescriptor.hueOrange,
           )),
-    ].toSet();
+    };
   }
-  
 
   changeMapMode() {
     if (ConfigBloc().darkModeOn) {
@@ -87,37 +79,19 @@ class MapPageState extends State<MapPage> {
                 setState(() {});
               },
             ),
-            // IgnorePointer(
-            //   child: Padding(
-            //       padding: const EdgeInsets.all(8.0),
-            //       child: RichText(
-            //         textAlign: TextAlign.center,
-            //         text: TextSpan(
-            //             text: "Google Office\n",
-            //             style: Theme.of(context).textTheme.title.copyWith(
-            //                   fontWeight: FontWeight.bold,
-            //                 ),
-            //             children: [
-            //               TextSpan(
-            //                   text: "Shoreline Amphitheatre, Mountain View, CA",
-            //                   style: Theme.of(context).textTheme.titleMedium,
-            //                   children: []),
-            //             ]),
-            //       )),
-            // )
             IgnorePointer(
               child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: RichText(
                     textAlign: TextAlign.center,
                     text: TextSpan(
-                        text: "Google Office\n",
+                        text: "Ica\n",
                         style: Theme.of(context).textTheme.titleLarge!.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
                         children: [
                           TextSpan(
-                              text: "Shoreline Amphitheatre, Mountain View, CA",
+                              text: "Ica, Ica, Ica",
                               style: Theme.of(context).textTheme.titleMedium,
                               children: []),
                         ]),
@@ -126,7 +100,7 @@ class MapPageState extends State<MapPage> {
           ],
         ),
       ),
-      title: "Locate Us",
+      title: "Ubícanos",
     );
   }
 }

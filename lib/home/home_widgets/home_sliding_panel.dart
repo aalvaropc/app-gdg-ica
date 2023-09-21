@@ -94,14 +94,14 @@ class _HomeSlidingPanelState extends State<HomeSlidingPanel> {
                 child: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
-                      text: "Google Office\n",
+                      text: "Google Office - Ica\n",
                       // style: Theme.of(context).textTheme.title.copyWith(
                         style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                       children: [
                         TextSpan(
-                            text: "Shoreline Amphitheatre, Mountain View, CA",
+                            text: "Shoreline Amphitheatre, Mountain View, CA - Ica",
                             // style: Theme.of(context).textTheme.subtitle,
                             style: Theme.of(context).textTheme.titleMedium,
                             children: []),

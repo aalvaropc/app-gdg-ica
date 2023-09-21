@@ -3,6 +3,8 @@
         android:label="gdgica"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAvLrMtp4SmBAo_atmxpYCWlfU7PjRdC-k"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

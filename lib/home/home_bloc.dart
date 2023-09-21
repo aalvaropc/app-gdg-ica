@@ -14,7 +14,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   // @override
   HomeState get initialState => UnHomeState();
 
-  // @override
+  @override
   Stream<HomeState> mapEventToState(
     HomeEvent event,
   ) async* {
@@ -22,8 +22,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     try {
       yield await event.applyAsync(currentState: state, bloc: this);
       // yield await event.applyAsync(currentState: currentState, bloc: this);
-    } catch (_, stackTrace) {
-      print('$_ $stackTrace');
+    // } catch (_, stackTrace) {
+      } catch (_) {
+      // print('$_ $stackTrace');
       // yield currentState;
       yield state;
     }

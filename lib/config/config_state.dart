@@ -44,7 +44,7 @@ class ErrorConfigState extends ConfigState {
 
   @override
   ConfigState getStateCopy() {
-    return ErrorConfigState(this.errorMessage);
+    return ErrorConfigState(errorMessage);
   }
 
   @override

@@ -81,7 +81,7 @@ class HomeScreenState extends State<HomeScreen> {
                     ),
                   ));
             }
-            return HomeFront();
+            return const HomeFront();
           }),
     );
   }

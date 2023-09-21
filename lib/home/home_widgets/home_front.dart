@@ -80,7 +80,7 @@ class HomeFront extends StatelessWidget {
             onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
           ),
           ElevatedButton(
-            child: const Text("Locate Us"),
+            child: const Text("Ubícanos"),
             // shape: StadiumBorder(),
             // color: Colors.blue,
             // colorBrightness: Brightness.dark,
@@ -142,33 +142,33 @@ class HomeFront extends StatelessWidget {
             IconButton(
               icon: const Icon(FontAwesomeIcons.facebookF),
               onPressed: () async {
-                await _launchURL("https://facebook.com/imthepk");
+                await _launchURL("https://www.facebook.com/gdgica");
               },
             ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.twitter),
               onPressed: () async {
-                await _launchURL("https://twitter.com/imthepk");
+                await _launchURL("https://twitter.com/GDGICA");
               },
             ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.linkedinIn),
               onPressed: () async {
-                _launchURL("https://linkedin.com/in/imthepk");
+                _launchURL("https://www.linkedin.com/company/gdg-ica/");
               },
             ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.youtube),
               onPressed: () async {
-                await _launchURL("https://youtube.com/mtechviral");
+                await _launchURL("https://www.youtube.com/@GDGICA");
               },
             ),
-            IconButton(
-              icon: const Icon(FontAwesomeIcons.meetup),
-              onPressed: () async {
-                await _launchURL("https://meetup.com/");
-              },
-            ),
+            // IconButton(
+            //   icon: const Icon(FontAwesomeIcons.meetup),
+            //   onPressed: () async {
+            //     await _launchURL("https://meetup.com/");
+            //   },
+            // ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.envelope),
               onPressed: () async {

@@ -63,13 +63,13 @@ class _ConfigPageState extends State<ConfigPage> {
             home: HomePage(),
             routes: {
               HomePage.routeName: (context) => HomePage(),
-              SpeakerPage.routeName: (context) => SpeakerPage(),
+              SpeakerPage.routeName: (context) => const SpeakerPage(),
               AgendaPage.routeName: (context) =>const AgendaPage(),
-              SponsorPage.routeName: (context) => SponsorPage(),
+              SponsorPage.routeName: (context) => const SponsorPage(),
               TeamPage.routeName: (context) => const TeamPage(),
-              FaqPage.routeName: (context) => FaqPage(),
-              FindDevFestPage.routeName: (context) => FindDevFestPage(),
-              MapPage.routeName: (context) => MapPage(),
+              FaqPage.routeName: (context) => const FaqPage(),
+              FindDevFestPage.routeName: (context) => const FindDevFestPage(),
+              MapPage.routeName: (context) => const MapPage(),
             },
           );
         },

@@ -12,8 +12,16 @@ class SponsorPage extends StatelessWidget {
         children: const <Widget>[
           SponsorImage(
             imgUrl:
-                "",
-          )
+                "https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://assets.stickpng.com/images/5a951939c4ffc33e8c148af2.png",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://logodownload.org/wp-content/uploads/2021/06/google-cloud-logo-1.png",
+          ),
         ],
       ),
       title: "Sponsors",

@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Devfest {
   static const String appName = "Devfest";
-  static const String appVersion = "Version 1.0.4";
+  static const String appVersion = "Version 1.0.0";
   static const int appVersionCode = 1;
   static const String appColor = "#ffd7167";
   static Color primaryAppColor = Colors.white;
@@ -39,7 +39,7 @@ class Devfest {
   //*  Texts
   static const String welcomeText = "GDG Ica DevFest";
   static const String descText =
-      '''DevFest son eventos globales organizados por capítulos de GDG en todo el mundo, donde la comunidad de desarrolladores se reúne para aprender sobre las tecnologías de Google y fortalecer sus lazos.''';
+      '''''';
 
   static const String loadingText = "Loading...";
   static const String tryAgainText = "Try Again";
@@ -63,7 +63,7 @@ class Devfest {
   static const String teamText = "Team";
   static const String sponsorText = "Sponsors";
   static const String faqText = "FAQ";
-  static const String mapText = "Locate Us";
+  static const String mapText = "Ubícanos";
 
   //* Preferences
   static late SharedPreferences prefs;
