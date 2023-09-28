@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181840609191",
+    "project_id": "pushnotification-618da",
+    "storage_bucket": "pushnotification-618da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181840609191:android:36e98f44640521ca23c082",
+        "android_client_info": {
+          "package_name": "com.example.gdgica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrXSezJLdNpLy5d62DYb86VHBX2MQJSj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
