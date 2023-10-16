@@ -30,13 +30,14 @@ class HomeFront extends StatelessWidget {
         ),
       ];
 
-  _launchURL(String url) async {
-    if (await canLaunchUrl(Uri.parse(url))) {
-      await launchUrl(Uri.parse(url));
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // _launchURL(String url) async {
+  //   Uri urlparse = Uri.parse(url);
+  //   if (await canLaunchUrl(urlparse)) {
+  //     await launchUrl(urlparse);
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 
   Widget actions(context) => Wrap(
         alignment: WrapAlignment.center,
@@ -44,46 +45,28 @@ class HomeFront extends StatelessWidget {
         children: <Widget>[
           ElevatedButton(
             child: const Text("Agenda"),
-            // shape: StadiumBorder(),
-            // color: Colors.red,
-            // colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, AgendaPage.routeName),
           ),
           ElevatedButton(
-            child: const Text("Speakers"),
-            // shape: StadiumBorder(),
-            // color: Colors.green,
-            // colorBrightness: Brightness.dark,
+            child: const Text("Ponentes"),
             onPressed: () =>
                 Navigator.pushNamed(context, SpeakerPage.routeName),
           ),
           ElevatedButton(
             child: const Text("Sponsors"),
-            // shape: StadiumBorder(),
-            // color: Colors.orange,
-            // colorBrightness: Brightness.dark,
             onPressed: () =>
                 Navigator.pushNamed(context, SponsorPage.routeName),
           ),
           ElevatedButton(
-            child: const Text("Team"),
-            // shape: StadiumBorder(),
-            // color: Colors.purple,
-            // colorBrightness: Brightness.dark,
+            child: const Text("Equipo"),
             onPressed: () => Navigator.pushNamed(context, TeamPage.routeName),
           ),
           ElevatedButton(
             child: const Text("FAQ"),
-            // shape: StadiumBorder(),
-            // color: Colors.brown,
-            // colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
           ),
           ElevatedButton(
             child: const Text("Ubícanos"),
-            // shape: StadiumBorder(),
-            // color: Colors.blue,
-            // colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, MapPage.routeName),
           ),
         ],
@@ -140,50 +123,66 @@ class HomeFront extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             IconButton(
-              icon: const Icon(FontAwesomeIcons.facebookF),
-              onPressed: () async {
-                await _launchURL("https://www.facebook.com/gdgica");
-              },
-            ),
-            IconButton(
               icon: const Icon(FontAwesomeIcons.twitter),
-              onPressed: () async {
-                await _launchURL("https://twitter.com/GDGICA");
+              onPressed: () {
+                Uri twitterUrl = Uri.parse('https://twitter.com/GDGICA');
+                _launch(
+                    twitterUrl);
               },
             ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.linkedinIn),
-              onPressed: () async {
-                _launchURL("https://www.linkedin.com/company/gdg-ica/");
+              onPressed: () {
+                Uri linkedinUrl = Uri.parse('https://www.linkedin.com/company/gdg-ica/');
+                _launch(
+                    linkedinUrl);
               },
             ),
             IconButton(
               icon: const Icon(FontAwesomeIcons.youtube),
-              onPressed: () async {
-                await _launchURL("https://www.youtube.com/@GDGICA");
+              onPressed: () {
+                Uri youtubeUrl = Uri.parse('https://www.youtube.com/@GDGICA');
+                _launch(
+                    youtubeUrl);
               },
             ),
-            // IconButton(
-            //   icon: const Icon(FontAwesomeIcons.meetup),
-            //   onPressed: () async {
-            //     await _launchURL("https://meetup.com/");
-            //   },
-            // ),
             IconButton(
-              icon: const Icon(FontAwesomeIcons.envelope),
-              onPressed: () async {
-                var emailUrl =
-                    '''mailto:mtechviral@gmail.com?subject=Support Needed For DevFest App&body={Name: Pawan Kumar},Email: pawan221b@gmail.com}''';
-                var out = Uri.encodeFull(emailUrl);
-                await _launchURL(out);
+              icon: const Icon(FontAwesomeIcons.facebook),
+              onPressed: () {
+                Uri facebookUrl = Uri.parse(
+                    'https://www.facebook.com/gdgica');
+                _launch(
+                    facebookUrl);
               },
             ),
           ],
         ),
       );
 
+  Future<void> _launch(Uri url) async {
+    if (await canLaunchUrl(url)) {
+      await launchUrl(url);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    ElevatedButton roundedButton = ElevatedButton(
+      onPressed: () {
+        Uri googleUrl = Uri.parse(
+            'https://www.eventbrite.com/e/entradas-devfest-ica-718100236137');
+        _launch(
+            googleUrl);
+      },
+      style: ElevatedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(
+              10.0),
+        ),
+      ),
+      child: const Text('Regístrate'),
+    );
+
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -196,11 +195,11 @@ class HomeFront extends StatelessWidget {
                   : Devfest.bannerLight,
             ),
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
-            ...devFestTexts(context),
+            roundedButton,
             const SizedBox(
-              height: 20,
+              height: 30,
             ),
             newActions(context),
             const SizedBox(
@@ -212,7 +211,7 @@ class HomeFront extends StatelessWidget {
             ),
             const Text(
               Devfest.appVersion,
-              // style: Theme.of(context).textTheme.caption.copyWith(fontSize: 10),
+              // style: Theme.of(context).textTheme.bodySmall.copyWith(fontSize: 10),
             )
           ],
         ),
@@ -222,13 +221,13 @@ class HomeFront extends StatelessWidget {
 }
 
 class ActionCard extends StatelessWidget {
-  // final Function? onPressed;
   final VoidCallback? onPressed;
   final IconData? icon;
   final String? title;
   final Color? color;
 
-  const ActionCard({Key? key, this.onPressed, this.icon, this.title, this.color})
+  const ActionCard(
+      {Key? key, this.onPressed, this.icon, this.title, this.color})
       : super(key: key);
   @override
   Widget build(BuildContext context) {

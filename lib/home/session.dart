@@ -99,12 +99,12 @@ class Session {
 }
 
 //*  Sessions hardcoded data
-const desc = "The async/await feature allows you to write the asynchronous code in a straightforward way," +
-    "without a long list of callbacks. Used in C# for quite a while already, it has proven to be extremely useful.In Kotlin you have async and await as library functions implemented using coroutines." +
-    "A coroutine is a light-weight thread that can be suspended and resumed later." +
-    "Very precise definition, but might be confusing at first. What 'light-weight thread' means?" +
-    "How does suspension work? This talk uncovers the magic. We'll discuss the concept of coroutines," +
-    "the power of async/await, and how you can benefit from defining your asynchronous computations using suspend function." +
+const desc = "The async/await feature allows you to write the asynchronous code in a straightforward way," 
+    "without a long list of callbacks. Used in C# for quite a while already, it has proven to be extremely useful.In Kotlin you have async and await as library functions implemented using coroutines." 
+    "A coroutine is a light-weight thread that can be suspended and resumed later." 
+    "Very precise definition, but might be confusing at first. What 'light-weight thread' means?" 
+    "How does suspension work? This talk uncovers the magic. We'll discuss the concept of coroutines," 
+    "the power of async/await, and how you can benefit from defining your asynchronous computations using suspend function."
     " The content of this video was not produced or created by Google.";
 
 
@@ -115,10 +115,10 @@ List<Session> sessions = [
     sessionId: "1",
     sessionStartTime: "9:00 AM",
     sessionTotalTime: "30 Mins",
-    sessionTitle: "DevByte: From Zero to ML on Google Cloud Platform",
+    sessionTitle: "probando desde sesiondart",
     sessionDesc: desc,
     speakerImage:
-        "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4",
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/lidia_marilia_perales_coaquira.jpeg",
     speakerName: "Max Saltonstall",
     speakerDesc: "Cloud Developer Advocate, Google DevByte speaker",
     track: "cloud",

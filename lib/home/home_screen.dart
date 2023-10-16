@@ -31,7 +31,8 @@ class HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     // this._homeBloc.dispatch(LoadHomeEvent());
-    this._homeBloc.add(LoadHomeEvent());
+    // this._homeBloc.add(LoadHomeEvent());
+    _homeBloc.add(LoadHomeEvent());
   }
 
   @override

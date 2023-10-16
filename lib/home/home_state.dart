@@ -6,7 +6,7 @@ import 'package:meta/meta.dart';
 
 @immutable
 abstract class HomeState extends Equatable {
-  HomeState();
+  const HomeState();
 
   /// Copy object for use in action
   HomeState getStateCopy();
@@ -32,7 +32,7 @@ class InHomeState extends HomeState {
   final SessionsData? sessionsData;
   final TeamsData? teamsData;
 
-  InHomeState({
+  const InHomeState({
     @required this.speakersData,
     @required this.sessionsData,
     @required this.teamsData,
@@ -58,7 +58,7 @@ class InHomeState extends HomeState {
 class ErrorHomeState extends HomeState {
   final String errorMessage;
 
-  ErrorHomeState(this.errorMessage);
+  const ErrorHomeState(this.errorMessage);
 
   @override
   String toString() => 'ErrorHomeState';

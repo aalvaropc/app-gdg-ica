@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
       //   ),
       //   body: HomeScreen(homeBloc: _homeBloc),
       // ),
-      title: "Home",
+      title: "Inicio",
     );
   }
 }

@@ -65,7 +65,7 @@ class SessionList extends StatelessWidget {
                             fontSize: 14,
                             color: Tools.multiColors[Random().nextInt(4)],
                           ),
-                      children: []),
+                      children: const []),
                 ],
               ),
             ),

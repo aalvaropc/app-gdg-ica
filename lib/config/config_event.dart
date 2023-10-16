@@ -21,8 +21,8 @@ class DarkModeEvent extends ConfigEvent {
       bloc!.darkModeOn = darkOn;
       Devfest.prefs.setBool(Devfest.darkModePref, darkOn);
       return InConfigState();
-    } catch (_, stackTrace) {
-      return ErrorConfigState('');
+    } catch (_) {
+      return const ErrorConfigState('');
     }
   }
 }
@@ -38,9 +38,9 @@ class LoadConfigEvent extends ConfigEvent {
       await Future.delayed(const Duration(seconds: 2));
 
       return InConfigState();
-    } catch (_, stackTrace) {
-      print('$_ $stackTrace');
-      return ErrorConfigState('');
+    } catch (_){
+      // print('$_ $stackTrace');
+      return const ErrorConfigState('');
     }
   }
 }

@@ -33,8 +33,8 @@ class Devfest {
 
   //* Images
   static const String homeImg = "assets/images/home_img.jpeg";
-  static const String bannerLight = "assets/images/banner_light.png";
-  static const String bannerDark = "assets/images/banner_dark.png";
+  static const String bannerLight = "assets/images/LogoDevGris.png";
+  static const String bannerDark = "assets/images/LogoDevBlanco.png";
 
   //*  Texts
   static const String welcomeText = "GDG Ica DevFest";
@@ -59,8 +59,8 @@ class Devfest {
 
   //* ActionTexts
   static const String agendaText = "Agenda";
-  static const String speakersText = "Speakers";
-  static const String teamText = "Team";
+  static const String speakersText = "Ponentes";
+  static const String teamText = "Equipo";
   static const String sponsorText = "Sponsors";
   static const String faqText = "FAQ";
   static const String mapText = "Ubícanos";

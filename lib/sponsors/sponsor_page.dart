@@ -12,15 +12,15 @@ class SponsorPage extends StatelessWidget {
         children: const <Widget>[
           SponsorImage(
             imgUrl:
+                "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/gdg%20ica.jpg",
+          ),
+          SponsorImage(
+            imgUrl:
                 "https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png",
           ),
           SponsorImage(
             imgUrl:
-                "https://assets.stickpng.com/images/5a951939c4ffc33e8c148af2.png",
-          ),
-          SponsorImage(
-            imgUrl:
-                "https://logodownload.org/wp-content/uploads/2021/06/google-cloud-logo-1.png",
+                "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
           ),
         ],
       ),

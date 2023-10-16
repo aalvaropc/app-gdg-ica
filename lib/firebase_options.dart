@@ -17,24 +17,15 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -52,11 +43,38 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBcmb-4amtelPyvh5-_9yXcel7kJjkn1jE',
+    appId: '1:187467978087:web:ab3d04563d325a03d88bc2',
+    messagingSenderId: '187467978087',
+    projectId: 'gdg-push',
+    authDomain: 'gdg-push.firebaseapp.com',
+    storageBucket: 'gdg-push.appspot.com',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCrXSezJLdNpLy5d62DYb86VHBX2MQJSj8',
-    appId: '1:181840609191:android:36e98f44640521ca23c082',
-    messagingSenderId: '181840609191',
-    projectId: 'pushnotification-618da',
-    storageBucket: 'pushnotification-618da.appspot.com',
+    apiKey: 'AIzaSyAQl7rZzBJjJ8reJzFRecCJH0lkcmGz5ro',
+    appId: '1:187467978087:android:7ccda515cebe8cfdd88bc2',
+    messagingSenderId: '187467978087',
+    projectId: 'gdg-push',
+    storageBucket: 'gdg-push.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAbjJCzhRC62yvocO6q1lqCs5KnBs5rF4k',
+    appId: '1:187467978087:ios:019f50ef9921e6c0d88bc2',
+    messagingSenderId: '187467978087',
+    projectId: 'gdg-push',
+    storageBucket: 'gdg-push.appspot.com',
+    iosBundleId: 'com.example.gdgica',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyAbjJCzhRC62yvocO6q1lqCs5KnBs5rF4k',
+    appId: '1:187467978087:ios:f6b31f339ddc4553d88bc2',
+    messagingSenderId: '187467978087',
+    projectId: 'gdg-push',
+    storageBucket: 'gdg-push.appspot.com',
+    iosBundleId: 'com.example.gdgica.RunnerTests',
   );
 }

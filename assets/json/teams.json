@@ -1,28 +1,94 @@
 {
   "teams": [
     {
-      "name": "Sundar Pichai",
+      "name": "Luis Lara",
       "desc": "Organizer",
-      "contribution": "Google CEO",
-      "image": "https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg"
+      "contribution": "Desarrollo",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/luis_uculmana_lara.jpg"
     },
     {
-      "name": "Vrijraj",
-      "desc": "Co-Organizer",
-      "contribution": "Logistics and travels",
-      "image": "https://avatars2.githubusercontent.com/u/10599101?s=460&v=4"
+      "name": "José Eduardo Ormeño Meneses",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jos%C3%A9_eduardo_orme%C3%B1o_meneses.jpg"
     },
     {
-      "name": "Larry Page",
-      "desc": "Co-Organizer",
-      "contribution": "Founder",
-      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F400x400.jpg%3Ffit%3Dscale%26background%3D000000"
+      "name": "Karla Delgado",
+      "desc": "Organizer",
+      "contribution": "Diseño",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/karla_delgado_lMhzi3R.jpg"
     },
     {
-      "name": "Pawan Kumar",
-      "desc": "Co-Organizer",
-      "contribution": "Developed the app",
-      "image": "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4"
+      "name": "Yadhira Condori",
+      "desc": "Organizer",
+      "contribution": "Diseño",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/yadhira_condori.jpg"
+    },
+    {
+      "name": "Ausubel Velasquez",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/ausubel_velasquez_7VyVIqv.png"
+    },
+    {
+      "name": "Genaro Petrill",
+      "desc": "Organizer",
+      "contribution": "Desarrollo",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/genaro_pretill.jpg"
+    },
+    {
+      "name": "Alvaro Peña",
+      "desc": "Organizer",
+      "contribution": "Desarrollo",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/alvaro_pe%C3%B1a.jpg"
+    },
+    {
+      "name": "Pablo Ramos Tito",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/pablo_fernando_ramos_tito_ojSr2tl.jpg"
+    },
+    {
+      "name": "Melanie Del Pilar Reyes Arcos",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/featured_attendees/WhatsApp%20Image%202023-08-09%20at%2018.43.53%20%281%29.jpeg"
+    },
+    {
+      "name": "Sheila Nadine Cuadros Gonzales",
+      "desc": "Organizer",
+      "contribution": "Diseño",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/sheila_nadine_cuadros_gonzales.jpg"
+    },
+    {
+      "name": "Jose Casma Nieto",
+      "desc": "Organizer",
+      "contribution": "Desarrollo",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jose_casma_nieto_ZhORWNu.png"
+    },
+    {
+      "name": "Ronaldo Alvarez Uchuya",
+      "desc": "Organizer",
+      "contribution": "Diseño",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/ronaldo_alvarez_uchuya_7AtGmiZ.jpg"
+    },
+    {
+      "name": "Jorge Saira Chambi",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jorge_s_ch_60BPV1E.jpg"
+    },
+    {
+      "name": "Lidia Marilia Perales Coaquira",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/lidia_marilia_perales_coaquira.jpeg"
+    },
+    {
+      "name": "Leslie Sofia Saravia Tasayco",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/leslie_sofia_saravia_tasayco.jpeg"
     }
   ]
 }

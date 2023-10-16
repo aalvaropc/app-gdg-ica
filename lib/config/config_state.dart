@@ -4,15 +4,12 @@ import 'package:meta/meta.dart';
 @immutable
 abstract class ConfigState extends Equatable {
   const ConfigState();
-
-  /// Copy object for use in action
   ConfigState getStateCopy();
 
   @override
   List<Object?> get props => [];
 }
 
-/// UnInitialized
 class UnConfigState extends ConfigState {
   @override
   String toString() => 'UnConfigState';
@@ -23,7 +20,6 @@ class UnConfigState extends ConfigState {
   }
 }
 
-/// Initialized
 class InConfigState extends ConfigState {
   @override
   String toString() => 'InConfigState';
@@ -34,10 +30,10 @@ class InConfigState extends ConfigState {
   }
 }
 
-class ErrorConfigState extends ConfigState {
-  final String errorMessage;
+class  ErrorConfigState extends ConfigState {
+  final  String  errorMessage;
 
-  ErrorConfigState(this.errorMessage);
+  const ErrorConfigState(this.errorMessage);
   
   @override
   String toString() => 'ErrorConfigState';

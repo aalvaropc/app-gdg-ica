@@ -41,7 +41,7 @@ class _HomeSlidingPanelState extends State<HomeSlidingPanel> {
   );
 
   Set<Marker> _createMarker() {
-    return <Marker>[
+    return  <Marker>[
       Marker(
           markerId: MarkerId("marker_1"),
           position: LatLng(37.42796133580664, -122.085749655962),
@@ -104,7 +104,7 @@ class _HomeSlidingPanelState extends State<HomeSlidingPanel> {
                             text: "Shoreline Amphitheatre, Mountain View, CA - Ica",
                             // style: Theme.of(context).textTheme.subtitle,
                             style: Theme.of(context).textTheme.titleMedium,
-                            children: []),
+                            children: const []),
                       ]),
                 )),
           )

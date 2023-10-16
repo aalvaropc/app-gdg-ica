@@ -17,14 +17,17 @@ Widget build(BuildContext context) {
             ? Tools.hexToColor("#1f2124")
             : Colors.white,
         borderRadius: BorderRadius.circular(
-          10.0,
+          15.0,
         ),
       ),
-      child: Image.asset(
-        img!,
-        fit: BoxFit.cover,
-        filterQuality: FilterQuality.high,
-      ),
+      child: Container(
+    margin: const EdgeInsets.all(10.0), // Ajusta el margen aquí
+    child: Image.asset(
+      img!,
+      fit: BoxFit.cover,
+      filterQuality: FilterQuality.high,
+    ),
+  ),
     );
  }
 }
