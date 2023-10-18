@@ -66,7 +66,7 @@ class _ConfigPageState extends State<ConfigPage> {
               SpeakerPage.routeName: (context) => const SpeakerPage(),
               // AgendaPage.routeName: (context) =>const AgendaPage(),
               SponsorPage.routeName: (context) => const SponsorPage(),
-              TeamPage.routeName: (context) => const TeamPage(),
+              // TeamPage.routeName: (context) => const TeamPage(),
               FaqPage.routeName: (context) => const FaqPage(),
               FindDevFestPage.routeName: (context) => const FindDevFestPage(),
               MapPage.routeName: (context) => const MapPage(),
