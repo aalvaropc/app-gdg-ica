@@ -12,7 +12,7 @@ class SponsorPage extends StatelessWidget {
         children: const <Widget>[
           SponsorImage(
             imgUrl:
-                "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/gdg%20ica.jpg",
+                "https://seeklogo.com/images/G/google-developers-logo-F8BF3155AC-seeklogo.com.png",
           ),
           SponsorImage(
             imgUrl:
@@ -22,6 +22,38 @@ class SponsorPage extends StatelessWidget {
             imgUrl:
                 "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
           ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/DMC.png?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/data_y_analitics.jpg?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/camara_comercio.png?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/systematic.jpg?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/pe%C3%B1otti.png?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/jcm.png?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/Geunica.png?raw=true",
+          ),
+          SponsorImage(
+            imgUrl:
+                "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/raul_salgado.jpg?raw=true",
+          )
         ],
       ),
       title: "Sponsors",

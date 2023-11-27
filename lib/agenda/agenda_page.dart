@@ -28,10 +28,10 @@ class AgendaPage extends StatelessWidget {
           tabs: const <Widget>[
             Tab(
               icon: Icon(
-                FontAwesomeIcons.cloud,
+                FontAwesomeIcons.chrome,
                 size: 12,
               ),
-              child: Text("Cloud"),
+              child: Text("Web"),
             ),
             Tab(
               icon: Icon(
@@ -42,10 +42,10 @@ class AgendaPage extends StatelessWidget {
             ),
             Tab(
               icon: Icon(
-                FontAwesomeIcons.chrome,
+                FontAwesomeIcons.laptopCode,
                 size: 12,
               ),
-              child: Text("Web & More"),
+              child: Text("More"),
             )
           ],
         ),

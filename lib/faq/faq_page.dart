@@ -28,7 +28,7 @@ class _FaqPageState extends State<FaqPage> {
     ),
     FaqItem(
       question: "¿Cuándo se llevará a cabo el DevFest de este año?",
-      answer: "La fecha del DevFest varía cada año, así que te recomiendo consultar el sitio web o las redes sociales de GDG Ica para obtener información actualizada sobre la fecha y detalles del evento de este año.",
+      answer: "El DevFest de este año se llevará a cabo el 2 de diciembre. Contaremos con dos auditorios, uno destinado al público en general cuyo horario será de 9:30 a.m. a 6:00 p.m. en el auditorio Raúl Porras Barrenechea y el segundo para estudiantes de secundaria de 9:30 a.m. a 1:00 p.m. en el teatrin Abraham Valdelomar. Ambos auditorios están ubicados a una cuadra de la Plaza de Armas.",
     ),
     FaqItem(
       question: "¿Cuál es el objetivo del DevFest?",

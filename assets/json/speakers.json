@@ -1,7 +1,7 @@
 {
   "speakers": [
     {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/joelIbaceta_M90i3fc.jpg",
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/joel.jpg?raw=true",
       "speaker_name": "Joel Ibaceta",
       "speaker_desc": "CTO at Kwema Inc.",
       "speaker_session": "",
@@ -12,8 +12,8 @@
     },
     {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
-      "speaker_name": "Damian Sire",
-      "speaker_desc": "Freelance Senior Developer",
+      "speaker_name": "Damián Siré",
+      "speaker_desc": "Senior Developer",
       "speaker_session": "",
       "fb_url": "None",
       "github_url": "https://github.com/damiansire",
@@ -23,7 +23,7 @@
     {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/bruno%20aybar.jpg",
       "speaker_name": "Bruno Aybar Guerrero",
-      "speaker_desc": "Senior Software Engineer",
+      "speaker_desc": "Senior Software Engineer at Shopify",
       "speaker_session": "",
       "fb_url": "None",
       "github_url": "https://github.com/Bruno125",
@@ -33,7 +33,7 @@
     {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/IMG_02%20-%20Gustavo%20Liz%C3%A1rraga.JPG",
       "speaker_name": "Gustavo Lizárraga",
-      "speaker_desc": "Mobile Software Engineer",
+      "speaker_desc": "Github Campus Expert",
       "speaker_session": "",
       "fb_url": "none",
       "github_url": "https://github.com/lizarragadev",
@@ -43,7 +43,7 @@
     {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/germanCayo.jpg",
       "speaker_name": "German Cayo Morales",
-      "speaker_desc": "Presidente Capítulo Industrial y Sistemas - CIP Ica",
+      "speaker_desc": "Presidente Capítulo Industrial y Sistemas - CD Ica",
       "speaker_session": "",
       "fb_url": "none",
       "github_url": "none",
@@ -51,39 +51,9 @@
       "twitter_url": "none"
     },
     {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/WhatsApp%20Image%202020-10-06%20at%2010.05.34%20AM.jpeg",
-      "speaker_name": "Hansy Schmitt",
-      "speaker_desc": "Mobile Engineer",
-      "speaker_session": "",
-      "fb_url": "none",
-      "github_url": "https://github.com/hschmitt",
-      "linkedin_url": "https://linkedin.com/in/hansy-schmitt-camacho-a152329",
-      "twitter_url": "none"
-    },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/elvisCapia.jpg",
-      "speaker_name": "Elvis Capia Quispe",
-      "speaker_desc": "Software Engineer at Google",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "None",
-      "linkedin_url": "https://www.linkedin.com/in/ecapia/",
-      "twitter_url": "None"
-    },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/alvaro%20huanca.jpg",
-      "speaker_name": "Alvaro Huanca",
-      "speaker_desc": "Google Developer Expert",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "https://github.com/AlvarDev",
-      "linkedin_url": "https://www.linkedin.com/in/alvardev/?originalSubdomain=br",
-      "twitter_url": "https://twitter.com/AlvarDev"
-    },
-    {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/carlo-huaman.jpg",
       "speaker_name": "Carlo Huamán",
-      "speaker_desc": "Arquitecto Mobile",
+      "speaker_desc": "Google Developer Expert",
       "speaker_session": "",
       "fb_url": "None",
       "github_url": "None",
@@ -91,19 +61,9 @@
       "twitter_url": "None"
     },
     {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/featured_attendees/WhatsApp%20Image%202020-05-24%20at%2022.05.05.jpeg",
-      "speaker_name": "Aarón Guerrero",
-      "speaker_desc": "Cloud Developer",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "None",
-      "linkedin_url": "None",
-      "twitter_url": "https://twitter.com/aaronthewarrior"
-    },
-    {
       "speaker_image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg",
       "speaker_name": "Vanessa Aristizábal",
-      "speaker_desc": "Frontend Developer",
+      "speaker_desc": "Google Developer Expert",
       "speaker_session": "",
       "fb_url": "None",
       "github_url": "https://github.com/vanessamarely",
@@ -113,12 +73,67 @@
     {
       "speaker_image": "https://img-b.udemycdn.com/user/200_H/26947678_bdf7_3.jpg",
       "speaker_name": "Bezael Pérez",
-      "speaker_desc": "Software Development Specialist Angular",
+      "speaker_desc": "Google Developer Expert",
       "speaker_session": "",
       "fb_url": "https://www.facebook.com/dominicodee/",
       "github_url": "https://github.com/bezael",
       "linkedin_url": "https://www.linkedin.com/in/bezael/",
       "twitter_url": "https://twitter.com/domini_code"
+    },
+    {
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/luis_landa.png?raw=true",
+      "speaker_name": "Luis Landa Girón",
+      "speaker_desc": "SAFe Scrum Master at Telefónica",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/luislanda/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/bryan_castillo.png?raw=true",
+      "speaker_name": "Bryan Castillo",
+      "speaker_desc": "Google Developer Expert",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/briansalvattore/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/fahed_hermoza.png?raw=true",
+      "speaker_name": "Fahed Hermoza",
+      "speaker_desc": "Senior Android Engineer at NTT Data",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/fahedhermoza/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/mayra.jpg?raw=true",
+      "speaker_name": "Mayra Rodriguez",
+      "speaker_desc": "Google Developer Expert",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/mayrascript/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/speakers/jesus.jpg?raw=true",
+      "speaker_name": "Jesús Peña Mesías",
+      "speaker_desc": "Senior Software Engineer at Google",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
     }
   ]
 }

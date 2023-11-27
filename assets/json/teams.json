@@ -7,10 +7,10 @@
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/luis_uculmana_lara.jpg"
     },
     {
-      "name": "José Eduardo Ormeño Meneses",
+      "name": "José Ormeño",
       "desc": "Organizer",
       "contribution": "Logística",
-      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jos%C3%A9_eduardo_orme%C3%B1o_meneses.jpg"
+      "image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/team/eduardo.jpg?raw=true"
     },
     {
       "name": "Karla Delgado",
@@ -31,64 +31,58 @@
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/ausubel_velasquez_7VyVIqv.png"
     },
     {
-      "name": "Genaro Petrill",
-      "desc": "Organizer",
-      "contribution": "Desarrollo",
-      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/genaro_pretill.jpg"
-    },
-    {
       "name": "Alvaro Peña",
       "desc": "Organizer",
       "contribution": "Desarrollo",
-      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/alvaro_pe%C3%B1a.jpg"
+      "image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/team/img.jpg?raw=true"
     },
     {
-      "name": "Pablo Ramos Tito",
+      "name": "Pablo Ramos",
       "desc": "Organizer",
       "contribution": "Logística",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/pablo_fernando_ramos_tito_ojSr2tl.jpg"
     },
     {
-      "name": "Melanie Del Pilar Reyes Arcos",
+      "name": "Melanie Reyes",
       "desc": "Organizer",
       "contribution": "Logística",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/featured_attendees/WhatsApp%20Image%202023-08-09%20at%2018.43.53%20%281%29.jpeg"
     },
     {
-      "name": "Sheila Nadine Cuadros Gonzales",
+      "name": "Sheila Cuadros",
       "desc": "Organizer",
       "contribution": "Diseño",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/sheila_nadine_cuadros_gonzales.jpg"
     },
     {
-      "name": "Jose Casma Nieto",
+      "name": "Jose Casma",
       "desc": "Organizer",
       "contribution": "Desarrollo",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jose_casma_nieto_ZhORWNu.png"
     },
     {
-      "name": "Ronaldo Alvarez Uchuya",
+      "name": "Ronaldo Alvarez",
       "desc": "Organizer",
       "contribution": "Diseño",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/ronaldo_alvarez_uchuya_7AtGmiZ.jpg"
     },
     {
-      "name": "Jorge Saira Chambi",
+      "name": "Jorge Saira",
       "desc": "Organizer",
       "contribution": "Logística",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/jorge_s_ch_60BPV1E.jpg"
     },
     {
-      "name": "Lidia Marilia Perales Coaquira",
-      "desc": "Organizer",
-      "contribution": "Logística",
-      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/lidia_marilia_perales_coaquira.jpeg"
-    },
-    {
-      "name": "Leslie Sofia Saravia Tasayco",
+      "name": "Leslie Saravia",
       "desc": "Organizer",
       "contribution": "Logística",
       "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/leslie_sofia_saravia_tasayco.jpeg"
+    },
+    {
+      "name": "Geremy Hernández",
+      "desc": "Organizer",
+      "contribution": "Logística",
+      "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/geremy_alexander_hern%C3%A1ndez_pe%C3%B1a.jpg"
     }
   ]
 }
